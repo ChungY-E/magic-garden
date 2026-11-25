@@ -1,0 +1,1 @@
+const { $, plantSVG, setupWarning }=MG;for(const [p,s] of [[3,1],[4,2],[0,4],[6,4],[1,3],[7,2]])$('#hero-art').append(plantSVG(p,s));const warning=setupWarning();if(warning)$('#notice').append(warning);
